@@ -15,5 +15,4 @@ elif Vraag == "B" :
 elif Vraag == "C" : 
     print("Ik woon niet in Den Helder, ik kom er wel vaak als ik naar texel ga!")
 
-import time
-time.sleep(30)
+
