@@ -35,3 +35,41 @@ elif Vraag3 == "B" :
     print("Jup! Ik heb zelf 2 vogels en we hebben dan ook nog een kat! Niet de beste combo haha ")
 elif Vraag3 == "C" : 
     print("Ik heb wel een hele lieve kat maar daarnaast ook nog andere dieren dus niet alleen een kat ")
+
+
+
+
+
+print("Je bent opeens op een gebouw wat doe je?")
+Spel = input("Wat doe je?: A) Spring naar beneden en hoop op het beste. B) Neem rustig de trap naar beneden. [A/B]? :")
+
+if Spel == "A" :
+    print("Aparte keuze maar je valt op de grond en breekt je benen")
+    Spell = input("Roep je om hulp of bel je zelf een ambulance? A) Ambulance. B) Roep voor hulp. [A/B]? :")
+    if Spell == "A" : 
+        print("Top de ambulance haalt je op en je bent opgelapt")
+    elif Spell == "B" :
+        print("Mensen horen je niet en je eindigt in een steegje achter een gebouw")
+
+
+if Spel == "B" : 
+    print("Je komt beneden aan en je kan naar het strand of naar huis")
+    Spelll = input("Je kan kiezen of je naar huis wil of naar het strand A) Het strand. B) Naar Huis. [A/B]? :")
+    
+    if Spelll == "A" :
+        print("Op Het strand staan een boot en vliegtuig klaar")
+        Spellll = input("Neem je het vliegtuig of de boot A) Vliegtuig. B) Boot. [A/B]? :")
+        if Spellll == "A" : 
+            print("Waarom zou je dat doen? Het vliegtuig zinkt in het zand en je overleeft het niet")
+        if Spellll == "B" : 
+            print("Je gaat er vandoor met de boot en je word nooit meer gezien.")
+
+
+    if Spelll == "B" : 
+        print("Je loopt naar huis en thuis kan je gaan slapen of op de bank netflix kijken")
+        Spel2 = input("Wat wordt de keuze A) Netflix kijken. B) Slapen. [A/B]? :")
+        if Spel2 == "A" :
+            print("je kijkt de hele series van Aroow en krijgt er de rest van je leven spijt van")
+        elif Spel2 == "B" :
+            print("Slaap lekker")
+
