@@ -1,4 +1,4 @@
-print("Je wekker gaat af, slaap(SLAPEN) je verder of sta je op(OPSTAAN)?")
+print("Je wekker gaat af, slaap(Slapen) je verder of sta je op(Opstaan)?")
 choice = input()
 if choice == 'Opstaan':
     print("Je staat op en maakt je klaar voor de dag")
@@ -7,7 +7,7 @@ elif choice == 'Slapen':
 else:
     print(choice, " Dat was niet een keuze")
 
-print("Je bent wakker, ga je DOUCHEN of ONTBIJTEN?")
+print("Je bent wakker, ga je Douchen of Ontbijten?")
 choice = input()
 if choice == 'Douchen':
     print("Je gaat lekker warm douchen")
@@ -16,7 +16,7 @@ elif choice == 'Ontbijten':
 else:
     print(choice, " Dat was niet een keuze")
 
-print("Je pizza is aangebrand in de oven, maak je een nieuwe(NIEUWE MAKEN) of eet je hem alsnog op(OPETEN)?")
+print("Je pizza is aangebrand in de oven, maak je een nieuwe(Nieuwe Maken) of eet je hem alsnog op(Opeten)?")
 choice = input()
 if choice == 'Opeten':
     print("Je eet de pizza en krijgt buikpijn.")
@@ -26,7 +26,7 @@ else:
     print(choice, " Dat was niet een keuze")
 
 
-print("Je valt van een gebouw af. Pak je je PARAPLU of ga je DOOD?")
+print("Je valt van een gebouw af. Pak je je Paraplu of ga je Dood?")
 choice = input()
 if choice == 'Dood':
     print("Je valt te pletter maar je bent built different dus je overleeft het.")
@@ -36,7 +36,7 @@ else:
     print(choice, " Dat was niet een keuze")
 
 
-print("Je gaat naar de supermarkt, koop je spullen voor NASI of voor PIZZA")
+print("Je gaat naar de supermarkt, koop je spullen voor Nasi of voor Pizza")
 choice = input()
 if choice == 'Nasi':
     print("Je maakt een nasi en je eet het op.")
